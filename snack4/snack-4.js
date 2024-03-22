@@ -51,12 +51,21 @@ for ( i = 0 ; i < persone.length; i++) {
 
     //console.log(persona)
 
+    arrayGuida.push(persona)
+
     if ( persona.eta >= 18 ) {
 
        let frase = 'può guidare'
 
-        arrayGuida.push(persona.nome , persona.cognome , persona.eta , frase) 
+        arrayGuida.push(frase) 
 
+    }
+
+    else {
+
+        let frase = 'non può guidare'
+
+        arrayGuida.push(frase) 
     }
     
 }
