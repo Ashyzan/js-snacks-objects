@@ -55,7 +55,8 @@ for ( i = 0 ; i < persone.length; i++) {
 
         console.log(persona.nome, persona.cognome)
 
-        console.log('può guidare')
+        console.log('può guidare perché ha ' + persona.eta + ' anni') 
+
 
     }
 
