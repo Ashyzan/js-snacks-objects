@@ -53,13 +53,13 @@ for ( i = 0 ; i < persone.length; i++) {
 
     if ( persona.eta >= 18 ) {
 
-        console.log(persona.nome, persona.cognome)
+       let frase = 'può guidare'
 
-        console.log('può guidare perché ha ' + persona.eta + ' anni') 
-
+        arrayGuida.push(persona.nome , persona.cognome , persona.eta , frase) 
 
     }
-
+    
 }
 
+console.log(arrayGuida) 
 
