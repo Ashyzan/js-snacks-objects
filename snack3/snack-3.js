@@ -65,4 +65,4 @@ for (let i = 0 ; i < animali.length; i++) {
 
 }
 
-console.log(arrayMammiferi) 
+console.log(arrayMammiferi)
