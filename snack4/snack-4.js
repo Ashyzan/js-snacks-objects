@@ -50,25 +50,60 @@ for ( i = 0 ; i < persone.length; i++) {
     const persona = persone[i]
 
     //console.log(persona)
+  
+    // CORRECTION
+    const nome = persona.nome
+    const cognome = persona.cognome
+    const eta = persona.eta
 
-    arrayGuida.push(persona)
+    console.log(nome, cognome, eta)
 
-    if ( persona.eta >= 18 ) {
+   // let message = nome + '' + cognome + ', che ha ' + eta + ' anni'
 
-       let frase = 'può guidare'
+   let message = ` ${nome}  ${cognome} , che ha ${eta} anni`
+    console.log(message)
 
-        arrayGuida.push(frase) 
+
+    if (eta >= 18) {
+
+        message += ' può guidare'
+
 
     }
 
     else {
 
-        let frase = 'non può guidare'
+        message += ' non può guidare'
 
-        arrayGuida.push(frase) 
     }
-    
+
+    arrayGuida.push(message)
+
 }
 
-console.log(arrayGuida) 
+console.log( arrayGuida)
+
+
+// CORRECTION
+
+//     arrayGuida.push(persona)
+
+//     if ( persona.eta >= 18 ) {
+
+//        let frase = 'può guidare'
+
+//         arrayGuida.push(frase) 
+
+//     }
+
+//     else {
+
+//         let frase = 'non può guidare'
+
+//         arrayGuida.push(frase) 
+//     }
+    
+// }
+
+// console.log(arrayGuida) 
 
